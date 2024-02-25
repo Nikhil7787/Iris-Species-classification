@@ -56,9 +56,7 @@ Open a web browser and go to http://localhost:5000 to access the Flask app.
 
 
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
