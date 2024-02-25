@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris-Species-classification</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <h2>Iris-Species-classification</h2>
+            <p>This is a prediction model uses a machine learning algorithm trained on the Iris dataset.</p>
+            <p>Enter the sepal and petal measurements in centimeters of the iris flower to predict its class.</p>
+            <p>There are three species of Iris flowers:</p>
+            <ul>
+                <li>Iris-setosa</li>
+                <li>Iris-versicolor</li>
+                <li>Iris-virginica</li>
+            </ul>
+        </div>
+    <form action="/predict" method="post">
+        Sepal length <input type="text" name="Sepal_length"> <br>
+        Sepal width  <input type="text" name="Sepal_width"> <br>
+        Petal length <input type="text" name="Petal_length"> <br>
+        Petal width  <input type="text" name="Petal_width"> <br>
+        class: {{result}} <br>
+        <input type="submit" value="PREDICT">  
+        <a href="/"><button type="button">REFRESH</button></a>         
+    </form>
+    
+    
+</body>
+</html>
