@@ -56,7 +56,7 @@ Open a web browser and go to http://localhost:5000 to access the Flask app.
 
 
 
-Live Demo :- http://iris-species-classification-env.eba-m73rzcpj.ap-south-1.elasticbeanstalk.com/
+Live Demo:- http://iris-species-classification-env.eba-m73rzcpj.ap-south-1.elasticbeanstalk.com/
 
 
 
